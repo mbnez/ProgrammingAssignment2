@@ -1,6 +1,6 @@
-makeCacheMatrix <- function(x = matrix()){
-  inv <- NULL
-  set <- function(y){
+makeCacheMatrix <- function(x = matrix()){ ##define arg. with default mode matrix
+  inv <- NULL ## inv as NULL, will hold val of matrix
+  set <- function(y){  
     x <<-y
     inv <<- NULL
   }
